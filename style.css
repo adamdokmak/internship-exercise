@@ -11,6 +11,14 @@ body {
   overflow: scroll;
 }
 
+.box-shadow {
+  box-shadow: 0 2px 8px rgb(213, 213, 213);
+}
+
+.light {
+  font-weight: 400;
+}
+
 #hero {
   display: flex;
   flex-direction: column;
@@ -22,10 +30,6 @@ body {
 }
 
 /*main container styles*/
-.box-shadow {
-  box-shadow: 0 2px 8px rgb(213, 213, 213);
-}
-
 .data__container {
   display: flex;
   justify-content: start;
@@ -55,9 +59,11 @@ th, td {
 .action__title--column {
   padding-left: 15vw;
 }
+
 .action__data--column {
   margin-left: 15vw;
 }
+
 .status__title--column {
   padding-left: 38px;
 }
@@ -86,9 +92,7 @@ th, td {
   background-color: #FFAA0C;
 }
 
-.light {
-  font-weight: 400;
-}
+
 
 /*modal*/
 .modal__container {
@@ -207,7 +211,7 @@ input[type=number]::-webkit-outer-spin-button {
   scale: 2;
 }
 
-/*delete bytton styles*/
+/*trash bytton styles*/
 .delete {
   cursor: pointer;
   width: 1px;
